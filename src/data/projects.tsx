@@ -12,14 +12,14 @@ export const projects: Project[] = [
     stackTech: [<AstroIcon />, <TailwindCSSIcon />, <TypeScriptIcon />],
     ctas: [
       {
-        link: "https://github.com/withoutnicks/landing-la-casa-informatica",
-        text: "Repository",
+        link: "https://github.com/VICOSORIO17/Python---Calculadora",
+        text: "Repositorio",
         variant: "secondary",
         icon: <CodeIcon />,
       },
       {
-        link: "https://lacasainformatica.com/",
-        text: "Visit",
+        link: "https://www.youtube.com/watch?v=Sc0Nettp3PY",
+        text: "Video",
         variant: "default",
         icon: <ExternalLinkIcon />,
       },
