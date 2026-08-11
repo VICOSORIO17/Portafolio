@@ -1,0 +1,28 @@
+---
+import { Image } from "astro:assets";
+import SubtitleSection from "@astro/SubtitleSection.astro";
+---
+
+<SubtitleSection title="Sobre mi" />
+
+<section class="flex flex-col items-center justify-center gap-8 p-2 sm:h-72 sm:flex-row">
+  <div class="flex max-w-[28rem] flex-col gap-2 text-pretty text-base font-varela">
+    <p>
+      Me llamo <strong>Leonardo Palomino</strong> y tengo <strong>22 años</strong>. Soy <strong>Programador Front-End React y React Native</strong>. 
+    </p>
+    <p>
+      Estudié <strong>Ingeniería de Computación y Sistemas</strong> en la <strong>Universidad San Martín de Porres</strong>. 🎓
+    </p>
+    <p>
+      Actualmente, me especializo en <strong>desarrollo web y móvil</strong>, construyendo aplicaciones intuitivas y de alto rendimiento. 🦭
+    </p>
+  </div>
+  <Image
+    width={300}
+    height={300}
+    src="/leofino.webp"
+    alt="Leonardo Palomino"
+    loading={"lazy"}
+    class="size-64 rounded-2xl object-cover shadow-2xl rotate-3 hover:rotate-0 transition duration-300"
+  />
+</section>
