@@ -7,8 +7,8 @@ export const projects: Project[] = [
     id: "la-casa-informatica",
     name: "Calculadora simple",
     description:
-      'Cree una calculadora simple en Python a base de la libreria "Tkinter". Este proyecto buscaba generar experiencia para mi dentro del lenguaje',
-    bannerUrl: "/poster/web.svg",
+      'Cree una calculadora simple en Python a base de la libreria "TKinter". Este proyecto buscaba generar experiencia para mi dentro del lenguaje',
+    bannerUrl: "/poster/web1.jpeg",
     stackTech: [<AstroIcon />, <TailwindCSSIcon />, <TypeScriptIcon />],
     ctas: [
       {
