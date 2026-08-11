@@ -7,7 +7,7 @@ export const projects: Project[] = [
     id: "la-casa-informatica",
     name: "La casa Informática",
     description:
-      'Creé la página web para la academia de programación "La Casa Informática". Este proyecto buscaba informar y atraer a nuevos estudiantes.',
+      'Cree una calculadora simple en Python a base de la libreria "Tkinter". Este proyecto buscaba generar experiencia para mi dentro del lenguaje',
     bannerUrl: "/poster/web.svg",
     stackTech: [<AstroIcon />, <TailwindCSSIcon />, <TypeScriptIcon />],
     ctas: [
