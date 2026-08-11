@@ -6,13 +6,13 @@ interface ProjectCardProps extends Omit<Project, "id"> { }
 export const ProjectCard = ({ name, description, bannerUrl, ctas, stackTech }: ProjectCardProps) => {
   return (
     <article className="group flex gap-6 justify-center md:even:flex-row-reverse">
-      <picture className="hidden h-56 w-full max-w-80 overflow-hidden rounded-2xl bg-white/70 sm:block">
+      <picture className="hidden h-56 w-full max-w-80 overflow-hidden rounded-2xl bg-zinc-900 sm:block">
         <img
-          className="relative rounded-lg transition-all duration-500 group-hover:-translate-y-4"
+          className="h-full w-full object-cover rounded-2xl transition-all duration-500 group-hover:scale-105"
           width={320}
           height={220}
           src={bannerUrl}
-          alt={`$${name} banner`}
+          alt={`${name} banner`}
         />
       </picture>
 
@@ -41,13 +41,13 @@ export const ProjectCard = ({ name, description, bannerUrl, ctas, stackTech }: P
         </section>
       </div>
 
-      <picture className="block size-40 w-full max-w-40 overflow-hidden rounded-2xl bg-white/70 sm:hidden">
+      <picture className="block size-40 w-full max-w-40 overflow-hidden rounded-2xl bg-zinc-900 sm:hidden">
         <img
-          className="relative rounded-lg transition-all duration-500 group-hover:-translate-y-2"
+          className="h-full w-full object-cover rounded-2xl transition-all duration-500 group-hover:scale-105"
           width={320}
           height={220}
           src={bannerUrl}
-          alt={`$${name} banner`}
+          alt={`${name} banner`}
         />
       </picture>
     </article>
