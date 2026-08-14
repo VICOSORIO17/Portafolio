@@ -47,36 +47,5 @@ export const projects: Project[] = [
       },
     ],
   } satisfies Project,
-  {
-    id: "mi-cole",
-    name: "Mi Cole",
-    description:
-      "Desarrollé 'Mi Cole', una app móvil con React Native para la gestión de asistencia escolar mediante RFID. Diseñé interfaces intuitivas y aseguré una integración eficiente con el backend.",
-    bannerUrl: "/poster/admin.svg",
-    stackTech: [<TypeScriptIcon />, <TailwindCSSIcon />],
-    ctas: [
-      {
-        link: "https://play.google.com/store/search?q=MICOLE&c=apps&hl=es_PE",
-        text: "Play Store",
-        variant: "default",
-        icon: <ExternalLinkIcon />,
-      },
-    ],
-  } satisfies Project,
-  {
-    id: "qbd-farmacia",
-    name: "QBD Farmacia Magistral",
-    description:
-      "Lideré el desarrollo front-end del sistema ERP empresarial con React y TypeScript. Diseñé componentes reutilizables, interfaces intuitivas y aseguré la integración con servicios RESTful en Python.",
-    bannerUrl: "/poster/admin.svg",
-    stackTech: [<TypeScriptIcon />, <TailwindCSSIcon />],
-    ctas: [
-      {
-        link: "https://qbd-proyecto-laboratorio.onrender.com/login?returnUrl=%2Fgestion-pedidos",
-        text: "Visitar",
-        variant: "default",
-        icon: <ExternalLinkIcon />,
-      },
-    ],
-  } satisfies Project,
 ];
+
