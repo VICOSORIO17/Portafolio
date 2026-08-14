@@ -27,9 +27,9 @@ export const projects: Project[] = [
   } satisfies Project,
   {
     id: "go-delivery",
-    name: "Go Delivery",
+    name: "Revision de Dataset",
     description:
-      "Desarrollé desde cero la aplicación móvil 'Go Delivery', una plataforma de entrega de comida a domicilio. Desarrollé interfaces de usuario intuitivas y responsivas, mejorando significativamente la experiencia del usuario final.",
+      "Desarrollé la revision de un Dataset sobre el costo de vida en los países de America en Python usando la libreria Pandas, generé gráficos y tablas para analizar la información usando la libreria de Matprolib.",
     bannerUrl: "/poster/speed.svg",
     stackTech: [<TypeScriptIcon />, <TailwindCSSIcon />],
     ctas: [
