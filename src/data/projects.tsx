@@ -30,7 +30,7 @@ export const projects: Project[] = [
     name: "Revision de Dataset",
     description:
       "Desarrollé la revision de un Dataset sobre el costo de vida en los países de America en Python usando la libreria Pandas, generé gráficos y tablas para analizar la información usando la libreria de Matprolib.",
-    bannerUrl: "/poster/speed.svg",
+    bannerUrl: "/poster/web2.jpeg",
     stackTech: [<TypeScriptIcon />, <TailwindCSSIcon />],
     ctas: [
       {
