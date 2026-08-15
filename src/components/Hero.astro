@@ -1,8 +1,6 @@
 ---
-import { EnvelopeClosedIcon, FileTextIcon, CheckCircledIcon } from "@radix-ui/react-icons";
-import { Button } from "@atoms/button";
+import { EnvelopeClosedIcon } from "@radix-ui/react-icons";
 import "@fontsource-variable/space-grotesk";
-import LinkButton from "@astro/LinkButton.astro";
 ---
 
 <section class="grid h-[92vh] place-content-center place-items-center gap-4 text-center">
@@ -22,7 +20,7 @@ import LinkButton from "@astro/LinkButton.astro";
       >
     </h1>Practicante 
     <p class="my-4 font-varela">Practicante de lenguaje Python. Lima, Peru.</p>
-    <section class="mx-auto flex flex-col gap-2 sm:flex-row">
+    <div class="flex justify-center">
       <a
         href="https://wa.me/51966391000"
         target="_blank"
@@ -31,9 +29,6 @@ import LinkButton from "@astro/LinkButton.astro";
       >
         <EnvelopeClosedIcon className="mr-2" /> Contactar
       </a>
-      <LinkButton link="/CV_AITORPALOMINO.pdf" variant={"primary"} text="Ver CV" position="left">
-        <FileTextIcon />
-      </LinkButton>
-    </section>
+    </div>
   </div>
 </section>
