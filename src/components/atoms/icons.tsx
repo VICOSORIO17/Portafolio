@@ -212,3 +212,45 @@ export const JSONIcon = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
+
+export const PythonIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 256 255"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <defs>
+      <linearGradient
+        id="python__a"
+        x1="12.959%"
+        x2="79.639%"
+        y1="12.039%"
+        y2="79.669%"
+      >
+        <stop offset="0%" stopColor="#387EB8" />
+        <stop offset="100%" stopColor="#366994" />
+      </linearGradient>
+      <linearGradient
+        id="python__b"
+        x1="21.503%"
+        x2="85.914%"
+        y1="20.312%"
+        y2="85.617%"
+      >
+        <stop offset="0%" stopColor="#FFE052" />
+        <stop offset="100%" stopColor="#FFC331" />
+      </linearGradient>
+    </defs>
+    <path
+      fill="url(#python__a)"
+      d="M126.916.072c-64.832 0-60.784 28.115-60.784 28.115l.072 29.128h61.868v8.745H42.331S0 61.42 0 126.362c0 64.941 36.893 62.614 36.893 62.614l22.011-.072v-30.871s-1.21-36.893 36.893-36.893h61.547s34.786.602 34.786-33.896V28.187S197.669.072 126.916.072ZM92.804 19.531a11.493 11.493 0 1 1 0 22.986 11.493 11.493 0 0 1 0-22.986Z"
+    />
+    <path
+      fill="url(#python__b)"
+      d="M128.757 254.126c64.832 0 60.784-28.115 60.784-28.115l-.072-29.127h-61.868v-8.745h85.741s42.331 4.64 42.331-60.302c0-64.942-36.893-62.614-36.893-62.614l-22.011.072v30.871s1.21 36.893-36.893 36.893h-61.547s-34.786-.602-34.786 33.896v60.803s-5.54 28.114 65.214 28.114Zm34.112-19.459a11.493 11.493 0 1 1 0-22.986 11.493 11.493 0 0 1 0 22.986Z"
+    />
+  </svg>
+);
+

@@ -1,6 +1,6 @@
 import type { Project } from "@/types";
 import { CodeIcon, ExternalLinkIcon } from "@radix-ui/react-icons";
-import { AstroIcon, JSONIcon, TailwindCSSIcon, TypeScriptIcon, VisualStudioCodeIcon } from "@/components/atoms/icons";
+import { PythonIcon } from "@/components/atoms/icons";
 
 export const projects: Project[] = [
   {
@@ -9,7 +9,7 @@ export const projects: Project[] = [
     description:
       'Cree una calculadora simple en Python a base de la libreria "TKinter". Este proyecto buscaba generar experiencia para mi dentro del lenguaje',
     bannerUrl: "/poster/web1.jpeg",
-    stackTech: [<AstroIcon />, <TailwindCSSIcon />, <TypeScriptIcon />],
+    stackTech: [<PythonIcon />],
     ctas: [
       {
         link: "https://github.com/VICOSORIO17/Python---Calculadora",
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     description:
       "Desarrollé la revision de un Dataset sobre el costo de vida en los países de America en Python usando la libreria Pandas, generé gráficos y tablas para analizar la información usando la libreria de Matprolib.",
     bannerUrl: "/poster/web2.jpeg",
-    stackTech: [<TypeScriptIcon />, <TailwindCSSIcon />],
+    stackTech: [<PythonIcon />],
     ctas: [
       {
         link: "https://play.google.com/store/apps/details?id=com.Go",
