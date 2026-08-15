@@ -34,15 +34,9 @@ export const projects: Project[] = [
     stackTech: [<PythonIcon />],
     ctas: [
       {
-        link: "https://play.google.com/store/apps/details?id=com.Go",
-        text: "Play Store",
+        link: "https://github.com/VICOSORIO17/Examen---Dataset",
+        text: "Repositorio",
         variant: "secondary",
-        icon: <ExternalLinkIcon />,
-      },
-      {
-        link: "https://apps.apple.com/pe/app/go-delivery-comida-r%C3%A1pida/id6741622545",
-        text: "App Store",
-        variant: "default",
         icon: <ExternalLinkIcon />,
       },
     ],
